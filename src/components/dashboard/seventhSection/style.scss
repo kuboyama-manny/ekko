@@ -1,0 +1,162 @@
+.seventh {
+  background-image: linear-gradient(90deg, #50FF78 -12.81%, #009BE7 114.88%);
+  .seventh-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .bg-img-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: 999;
+      img {
+        width: 32%;
+        min-width: 18rem;
+        max-width: 38.5rem;
+        @media screen and (max-width: 450px) {
+          display: none;
+        }
+        @media screen and (max-height: 768px) {
+          width: 20%;
+        }
+        @media screen and (max-height: 670px) {
+          width: 12%;
+        }
+      }
+    }
+    .title {
+      padding-top: 18.2rem;
+      @media screen and (max-width: 768px) {
+        padding-top: 10.4rem;
+        max-width: 32.8rem;
+      }
+      @media screen and (max-height: 1080px) {
+        padding-top: 12rem;
+      }
+      
+      @media screen and (max-height: 820px) {
+        padding-top: 10rem;
+      }
+
+      @media screen and (max-height: 568px) {
+        padding-top: 8rem;
+      }
+    }
+    .trees-bottles {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20rem;
+      margin-right: 20rem;
+      margin-bottom: 10rem;
+      @media screen and (max-width: 1400px) {
+        margin-left: 15rem;
+        margin-right: 15rem;
+      }
+      @media screen and (max-width: 1200px) {
+        margin-left: 10rem;
+        margin-right: 10rem;
+      }
+      @media screen and (max-width: 992px) {
+        margin-left: 5rem;
+        margin-right: 5rem;
+      }
+  
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: flex-start;
+      }
+
+      @media screen and (max-height: 1080px) {
+        margin-left: 10rem;
+        margin-right: 10rem;
+      }
+      
+      @media screen and (max-height: 830px) {
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+
+      .card-item {
+        margin-right: 5rem;
+        @media screen and (max-width: 1200px) {
+          margin-left: 3rem;
+          margin-right: 3rem;
+        }
+        @media screen and (max-width: 992px) {
+          margin-left: 2rem;
+          margin-right: 2rem;
+          margin-bottom: 3rem;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+        @media screen and (max-height: 1080px) {
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+          margin-bottom: 3rem;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+        .img-wrapper {
+          height: 5rem;
+          img {
+            height: 100%;
+          }
+          @media screen and (max-width: 768px) {
+            display: none;
+          }
+        }
+        .card-title {
+          font-family: $font-poppins;
+          color: $white;
+          font-size: 2.4rem;
+          line-height: 3.6rem;
+          font-weight: 600;
+          margin-top: 1rem;
+          @media screen and (max-width: 1024px) {
+            font-size: 2.2rem;
+            line-height: 3rem;
+          }
+          @media screen and (max-width: 992px) {
+            font-size: 2rem;
+            line-height: 3rem;
+          }
+          @media screen and (max-width: 768px) {
+            text-align: center;
+          }
+        }
+        .card-description {
+          font-family: $font-poppins;
+          color: $white;
+          font-size: 1.6rem;
+          line-height: 2.2rem;
+          margin-top: 1rem;
+          @media screen and (max-width: 992px) {
+            font-size: 1.2rem;
+            line-height: 2rem;
+          }
+          @media screen and (max-width: 768px) {
+            display: none;
+          }
+          &__mobile {
+            display: none;
+            @media screen and (max-width: 768px) {
+              display: block;
+              color: $white;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

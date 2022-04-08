@@ -1,0 +1,32 @@
+.input-container {
+  width: 44.7rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  @media screen and (max-width: 768px) {
+    width: 29.6rem;
+    margin-top: 1rem;
+  }
+  @media screen and (max-height: 768px) {
+    margin-top: 1rem;
+  }
+  input {
+    // width: 100%;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    color: #1B1E64;
+    font-family: $font-poppins;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .border {
+    margin-top: 1.1rem;
+    width: 100%;
+    height: 0.2rem;
+    background: rgba(38, 40, 74, 0.15);
+    &.focus {
+      background: linear-gradient(90deg, #50FF78 -12.81%, #009BE7 114.88%);
+    }
+  }
+}

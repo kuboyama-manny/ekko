@@ -1,0 +1,124 @@
+.faq {
+  background-color: #1B1E64;
+  .title {
+    padding-top: 16rem;
+    @media screen and (max-width: 1400px) {
+      padding-top: 10.4rem;
+    }
+    @media screen and (max-height: 1080px) {
+      padding-top: 12rem;
+    }
+    @media screen and (max-height: 820px) {
+      padding-top: 10rem;
+    }
+    @media screen and (max-height: 700px) {
+      padding-top: 8rem;
+    }
+  }
+  .faqs-content {
+    margin-top: 6.4rem;
+    @media screen and (max-width: 1400px) {
+      margin-top: 3.7rem;
+    }
+    @media screen and (max-height: 820px) {
+      margin-top: 1rem;
+    }
+    margin-left: 18rem;
+    margin-right: 18rem;
+    @media screen and (max-width: 992px) {
+      margin-left: 1.8rem;
+      margin-right: 1.8rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      margin-left: 0.8rem;
+      margin-right: 0.8rem;
+    }
+
+    @media screen and (max-height: 1080px) {
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    
+    @media screen and (max-height: 830px) {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    @media screen and (max-height: 600px) {
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    overflow: auto;
+    .faq-item {
+      margin: 3.2rem 0;
+      @media screen and (max-width: 768px) {
+        margin: 0.96rem 0;
+      }
+      @media screen and (max-height: 1080px) {
+        margin: 2.2rem 0;
+      }
+      @media screen and (max-height: 820px) {
+        margin: 0.5rem 0;
+      }
+      .collapsible-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .question {
+          width: 90%;
+          font-family: $font-poppins;
+          color: $white;
+          font-weight: 600;
+          font-size: 2.8rem;
+          line-height: 4.2rem;
+          @media screen and (max-width: 1200px) {
+            font-size: 1.8rem;
+            line-height: 2.36rem;
+          }
+          @media screen and (max-width: 768px) {
+            font-size: 1.44rem;
+            line-height: 2.36rem;
+          }
+          @media screen and (max-height: 600px) {
+            font-size: 1.44rem;
+            line-height: 2.36rem;
+          }
+        }
+        .collapse-icon {
+          width: 3rem;
+          @media screen and (max-width: 768px) {
+            width: 1.28rem;
+          }
+          img {
+            width: 100%;
+          }
+          &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+          }
+        }
+      }
+      .answer {
+        font-family: $font-poppins;
+        color: $white;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        @media screen and (max-width: 768px) {
+          font-size: 1.12rem;
+          line-height: 1.92rem;
+        }
+        @media screen and (max-height: 600px) {
+          font-size: 1.12rem;
+          line-height: 1.92rem;
+        }
+      }
+    }
+    .item-graident {
+      height: 0.1rem;
+      background: linear-gradient(90deg, #50FF78 -12.81%, #009BE7 114.88%);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.custom-ekko-modal {
+  border-radius: 1rem;
+  box-sizing: border-box;
+  // max-height: 80vh;
+  min-height: 35rem;
+  &.privacy {
+    background-color: #1B1E64;
+  }
+  &.terms {
+    background-color: #1B1E64;
+  }
+  .react-responsive-modal-closeButton {
+    svg {
+      fill: $white;
+    }
+  }
+}

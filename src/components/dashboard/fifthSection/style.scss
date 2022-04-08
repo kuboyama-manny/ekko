@@ -1,0 +1,25 @@
+.fifth {
+  background: #1A4432;
+  .title {
+    padding-top: 26rem;
+    @media screen and (max-width: 768px) {
+      padding-top: 10.8rem;
+    }
+    @media screen and (max-height: 750px) {
+      padding-top: 12rem;
+    }
+    @media screen and (max-height: 400px) {
+      padding-top: 8rem;
+    }
+  }
+  .animation-container {
+    & > div {
+      @media screen and (max-width: 414px) {
+        width: 100% !important;
+        svg {
+          transform: scale(1.5) !important;
+        }
+      }
+    }
+  }
+}

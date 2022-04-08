@@ -1,0 +1,33 @@
+.terms-container {
+  p {
+    color: $white;
+    font-family: $font-poppins;
+    &.title {
+      font-size: 3.6rem;
+      line-height: 4.8rem;
+      font-weight: 700;
+      margin-top: 4rem;
+    }
+    &.description {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+    &.sub-title {
+      font-size: 2rem;
+      line-height: 2.4rem;
+      font-weight: 600;
+      margin-top: 2.5rem;
+      &.underline {
+        text-decoration: underline;
+      }
+    }
+    &.sub-description {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      margin-top: 1.5rem;
+      &.li {
+        margin-top: 0.2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+// import react toasty style
+@import "../../node_modules/react-toastify/dist/ReactToastify.css";
+@import "../../node_modules/react-toastify/dist/ReactToastify.min.css";
+
+// import modal style
+@import "~react-responsive-modal/styles.css";
+
+// import common styles
+@import "./common/colors.scss";
+@import "./common/variables.scss";
+@import "./common/fonts.scss";
+
+// import base styles
+@import "./base/base.scss";
+
+// import header style
+@import "../layouts/header/style.scss";
+
+// import footer style
+@import "../layouts/footer/style.scss";
+
+// scroll indicator style
+@import "../components/common/scrollIndicator/style.scss";
+
+// input style
+@import "../components/common/form/input/style.scss";
+
+// button style
+@import "../components/common/form/buttons/style.scss";
+
+// base modal style
+@import "../components/common/modal/style.scss";
+@import "../components/common/modal/privacy/style.scss";
+@import "../components/common/modal/terms/style.scss";
+
+// main pages styles
+@import "../components/dashboard/style.scss";
+// sub components styles
+@import "../components/dashboard/header/style.scss";
+@import "../components/dashboard/firstSection/style.scss";
+@import "../components/dashboard/secondSection/style.scss";
+@import "../components/dashboard/thirdSection/style.scss";
+@import "../components/dashboard/fourthSection/style.scss";
+@import "../components/dashboard/fifthSection/style.scss";
+@import "../components/dashboard/sixthSection/style.scss";
+@import "../components/dashboard/seventhSection/style.scss";
+@import "../components/dashboard/eighthSection/style.scss";
+@import "../components/dashboard/faqSection/style.scss";
+@import "../components/dashboard/footer/style.scss";
+
+@import "../components/confirmWaitlist/style.scss";
+@import "../components/waitlistError/style.scss";
+@import "../components/error404/style.scss";

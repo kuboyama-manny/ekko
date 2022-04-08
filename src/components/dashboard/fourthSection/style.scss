@@ -1,0 +1,30 @@
+.fourth {
+  background: linear-gradient(90deg, #50FF78 -12.81%, #009BE7 114.88%);
+  .title {
+    padding-top: 26rem;
+    @media screen and (max-width: 768px) {
+      padding-top: 16.8rem;
+    }
+
+    @media screen and (max-width: 450px) {
+      padding-top: 15rem;
+      width: 33.6rem;
+    }
+    @media screen and (max-height: 860px) {
+      padding-top: 15rem;
+    }
+    @media screen and (max-height: 600px) {
+      padding-top: 10rem;
+    }
+  }
+  .animation-container {
+    & > div {
+      @media screen and (max-width: 414px) {
+        width: 100% !important;
+        svg {
+          transform: scale(1.5) !important;
+        }
+      }
+    }
+  }
+}
